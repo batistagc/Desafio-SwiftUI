@@ -20,11 +20,11 @@ struct ContentView: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Hello, Gabriel!")
+                Text("Rua do Bom Jesus")
                     .font(.title)
                 
                 HStack {
-                    Text("How is it goin', Bro?")
+                    Text("Recife antigo")
                     Spacer()
                     Text("Recife - PE")
                 }
@@ -33,9 +33,9 @@ struct ContentView: View {
                 
                 Divider()
                 
-                Text("About Gabriel")
+                Text("About Rua do bom Jesus")
                     .font(.title2)
-                Text("A brazilian computer science student at the Mackenzie Presbyterian University. Currently learning about iOS development.")
+                Text("Considered the oldest street in the city and the third most beautiful street in the world, the 'Rua do Bom Jesus' is in the heart of the historic center of the Recife. Formerly known as 'Rua dos Judeus', it was the stage for several landmark historical events in the country.")
                     .font(.subheadline)
             }
             .padding()
